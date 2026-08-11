@@ -1,0 +1,106 @@
+/* CSS BY Zack */
+
+/* IMPORTED FONTS */
+
+
+/* CSS RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ROOT VARIABLES */
+
+:root {
+    --max-width: 450px;
+    --text-color: #222222;
+    --background-color: #ffffff;
+}
+
+
+/* GLOBAL STYLES (mobile first/small) */
+
+body {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header,
+section,
+footer {
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0.75rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+article img {
+    margin-bottom: 0.75rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
